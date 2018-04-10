@@ -36,7 +36,7 @@ function bsTOC(str, options) {
       }
 
       if (level > lastLevel) {
-        result += '<ul class="' + className + ' '+ className + '-child">';
+        result += '<ul class="' + className + ' ' + className + '-child">';
       } else {
         result += '</li>';
       }
@@ -68,9 +68,11 @@ function bsTOC(str, options) {
 
   return result;
 };
+
 /**
  * boostrap scrollspy compatible toc
  */
+
 hexo.extend.helper.register('bstoc', function(str, opts){
   return bsTOC(str, opts);
 });
