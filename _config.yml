@@ -1,21 +1,30 @@
-# Site settings
-title: A blog about miniChx
-description: A blog about miniChx
+title: Hi CC
+subtitle: "blog."
+description: "A blog based on hexo."
+author: CC
+language: zh-cn
+timezone: UTC
 
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: https://miniChx.io
+root: /
+permalink: news/:year/:month/:day/:title/
+archive_dir: news
+code_dir: downloads/code
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+post_asset_folder: true
+per_page: 0
 
-# User settings
-username: miniChx
-user_description: 小人物的点滴.
-user_title: Front-end Developer
-email: miss_ch.hx@qq.com
-github_username:  miniChx
-#twitter_username: lorem_ipsum
-#gplus_username:  lorem_ipsum
+theme: navy
+deploy:
+  type: git
+  repo: git@github.com:miniChx/miniChx.github.io
 
-# Google-analytics
-google-analytics:
-  id: ""
+highlight:
+  enable: true
+  line_number: false
 
-exclude: ['package.json', 'src' , 'node_modules']
+disqus_shortname: 
+fb_admins: 100000247608790
+
+twitter: hexojs
+github: miniChx/miniChx.github.io
