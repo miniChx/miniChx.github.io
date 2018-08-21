@@ -1,8 +1,6 @@
 .DS_Store
-.idea/
-node_modules/
-*.log
-db.json
-public/
-.deploy*/
-package-lock.json
+*/.DS_Store
+
+node_modules
+
+_site
