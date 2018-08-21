@@ -18,4 +18,4 @@ catalog: true
 嗯 一寸光阴不可轻 <br/>
 共勉 <br/>
 
-![]({{ site.baseurl }}/images/20171022/1241.jpg)
+![]({{ site.baseurl }}/images/20171022/meng.gif)
