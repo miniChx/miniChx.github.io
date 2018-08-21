@@ -65,7 +65,7 @@ value.replace(/[^/x00-\xff]/g, '**').length > 20
   })
   console.log(json) // {key0: "0", key1: "1", key2: "2"}
   return json;
-}) ('http://shihaoran.top/index.html?key0=0&key1=1&key2=2')
+})
 ```
 
 ### some
